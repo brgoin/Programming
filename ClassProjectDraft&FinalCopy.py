@@ -55,6 +55,6 @@ def get_zip():
         else:
             print("Invalid input, please enter a 5 digit zip code... ")
     return zip
-
+<Allen Vvoelcker> <2/18/2022> <Application for weather> <Source Code>
 
 main()
