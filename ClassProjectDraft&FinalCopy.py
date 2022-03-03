@@ -15,9 +15,7 @@ def show_data(data):
     print('Low Temperature:{} degree fahrenheit'.format(lowtemp))
     print('Description:{}.format(description)')
 
-    ##Defined while loop for program
-
-
+    
 def main():
     appid = "77054dd191def419d01555dd283282ae"
     print('Welcome to your weather.')
@@ -33,7 +31,6 @@ def main():
             print("Thank you for visiting, see you next time...")
             break
 
-
 def getWeatherData(url):
     try:
         response = requests.get(url)
@@ -44,7 +41,6 @@ def getWeatherData(url):
         print(f"URL: {url}")
 
     return response
-
 
 def get_zip():
     while True:
